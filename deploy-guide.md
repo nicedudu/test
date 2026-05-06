@@ -46,7 +46,7 @@ curl http://localhost:3000/health
 
 ## 回滚方案
 
-如果部署出现问题，使用以下命令回滚：xxxx
+如果部署出现问题，使用以下命令回滚：
 
 ```bash
 kubectl rollout undo deployment/myapp
